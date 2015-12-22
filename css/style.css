@@ -1,0 +1,124 @@
+body{
+ 	
+ 	background-color: black;
+ 	
+ } 
+ 
+h1{
+
+	text-align: center;
+	font: sans-serif;
+	font-size: 30px;
+	color: #F5FAFA;
+}
+
+h3{
+	
+	position: absolute;
+	left: 600px;
+	top: 80px;
+	color: #E89715;
+}
+
+.image1{
+	
+	position: absolute;
+	left: 380px;
+	top: 120px;
+	
+}
+.image2{
+	
+	position: absolute;
+	left: 600px;
+	top: 120px;
+}
+
+.image3{
+	
+	position: absolute;
+	left: 820px;
+	top: 110px;
+}
+
+.button1{
+	
+	position: absolute;
+	left: 440px;
+	top: 320px;
+}
+
+.button2{
+	
+	position: absolute;
+	left: 660px;
+	top: 320px;
+}
+
+.button3{
+	
+	position: absolute;
+	left: 870px;
+	top: 320px;
+}
+
+#user_selection{
+	
+	position: absolute;
+	left: 220px;
+	top: 450px;
+	font-style: italic;
+	font-size: 25px;
+	color: #F5FAFA;
+
+}
+
+#user_value{
+	
+	position: absolute;
+	left: 370px;
+	top: 475px;
+	font-style: italic;
+	color: #E89715;
+	font-size: 25px;
+}
+
+#computer_selection{
+	
+	position: absolute;
+	left: 910px;
+	top: 450px;
+	font-style: italic;
+	font-size: 25px;
+	color: #F5FAFA;
+}
+
+#computer_value{
+	
+	position: absolute;
+	left: 1118px;
+	top: 475px;
+	font-style: italic;
+	font-size: 25px;
+	color: #E89715;
+}
+
+#result{
+	
+	position: absolute;
+	font-size: 30px;
+	font: sans-serif;
+	font-style: italic;
+	color: #E89715;
+    left: 620px;
+	top: 550px;
+}
+
+#new-game{
+
+	position: absolute;
+	left: 650px;
+	top: 600px;
+}
+ 
+

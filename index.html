@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Rock, Paper and Scissors</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<h1>Lets Play Rock-Paper-Scissors!!!</h1>
+	<h3>Please make a Selection</h3>
+	<div class="image1"><img src="images/rock.png" style="width:200px; height:200px;"></div>
+	<div class="image2"><img src="images/paper.png" style="width:200px; height:200px;"></div>
+	<div class="image3"><img src="images/scissor.png" style="width:200px; height:210px;"></div>
+	<div class="button1"><button id="Rock" onclick="getResult(this.id)" style="width:100px; height:30px; font-size:15px;">Rock</button></div>
+	<div class="button2"><button id="Paper" onclick="getResult(this.id)" style="width:100px; height:30px; font-size:15px;">Paper</button></div>
+	<div class="button3"><button id="Scissor" onclick="getResult(this.id)" style="width:100px; height:30px; font-size:15px;">Scissor</button></div>
+	<div id="user_selection">
+	<p><b>You Played : </b></p>
+    </div>
+
+	<div id="user_value"></div>
+
+	<div id="computer_selection">
+     <p><b>Computer Played :</b></p>
+	</div>
+	
+	<div id="computer_value"></div>
+
+	<div id="result"></div>
+
+	<div id="new-game">
+		<button id="newgame" onclick="reloadPage()" style="width:100px; height:30px; font-size:15px;">New Game</button>
+	</div>
+</body>
+</html>
